@@ -1,0 +1,50 @@
+<div class="search-container">
+    <div class="search-wrapper">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <input 
+        type="text" 
+        class="search-input" 
+        placeholder="Αναζήτηση με τεχνολογία ή λέξη-κλειδί (π.χ. Angular, API)..."
+        (input)="updateSearch($event)"
+      >
+    </div>
+  </div>
+  <div class="empty-state" *ngIf="filteredProjects.length === 0">
+    <div class="empty-icon-wrapper">
+      <i class="fa-solid fa-ghost"></i> </div>
+    <h3>Δεν βρέθηκε κάτι!</h3>
+    <p>Δεν υπάρχει κάποιο project που να ταιριάζει με την αναζήτησή σου.</p>
+    <button class="btn-outline-red" (click)="clearSearch()">
+      <i class="fa-solid fa-rotate-right"></i> Επαναφορά Φίλτρων
+    </button>
+  </div>
+<div class="projects-grid">
+    
+    <div class="project-card" *ngFor="let project of filteredProjects">
+      
+      <div class="card-body">
+        <div class="card-header">
+          <span class="category-tag">{{ project.category }}</span>
+          <span class="grade-tag" *ngIf="project.grade">
+            <i class="fa-solid fa-star"></i> {{ project.grade }}
+          </span>
+        </div>
+        
+        <h3 class="card-title">{{ project.title }}</h3>
+        <p class="card-desc">{{ project.description }}</p>
+        
+        <div class="tech-stack">
+          <span class="tech-item" *ngFor="let tech of project.techStack">{{ tech }}</span>
+        </div>
+        
+        <div class="card-actions" *ngIf="project.link">
+          <a [href]="project.link" target="_blank" class="btn-view">
+            View Project <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  
+</div>
+  
