@@ -1,0 +1,97 @@
+{
+  "HOME": {
+    "GREETING": "Hi, I'm Haris",
+    "HERO_TITLE_1": "Engineering",
+    "HERO_TITLE_ACCENT": "Robust",
+    "HERO_TITLE_2": "Digital Solutions.",
+    "HERO_SUBTITLE": "Full-Stack Software Engineer focused on Enterprise Web Applications, Hardware Automations, and Tech Content creation.",
+    "BTN_PROJECTS": "View my work",
+    "BTN_CONTACT": "Contact me",
+    
+    "DOMAINS_TITLE": "My Domains",
+    "DOMAIN_WEB_TITLE": "Web Development",
+    "DOMAIN_WEB_DESC": "Specialized in Angular and ASP.NET Core (C#) for developing secure and fast Full-Stack systems and APIs.",
+    "DOMAIN_HW_TITLE": "Hardware & Systems",
+    "DOMAIN_HW_DESC": "Bridging software with the physical world. Experience in Raspberry Pi, Python scripting, and Custom DNS/Privacy Setups.",
+    "DOMAIN_CONTENT_TITLE": "Digital Content",
+    "DOMAIN_CONTENT_DESC": "Creator of the NotYezz channel (Tech/IT Education). Combining code with storytelling.",
+    
+    "TECH_TITLE": "Tech Stack & Tools",
+    
+    "FEAT_PROJECTS_TITLE": "Featured Projects",
+    "FEAT_SMOOTH_DESC": "Comprehensive travel platform. Academic project (Grade: 10/10) built with robust backend architecture and a dynamic frontend UI.",
+    "FEAT_TOTAL_DESC": "Multi-platform application (file conversion) designed to handle heavy conversion modules with a focus on speed and modern UI.",
+    "BTN_VIEW_ALL": "View full Portfolio &rarr;",
+    
+    "STATUS_TITLE": "Current Status & Availability",
+    "STATUS_TODAY": "Today",
+    "STATUS_TODAY_DESC": "Developing Full-Stack SaaS (TotalUnit) & Content Creation.",
+    "STATUS_EDU_DATE": "DIPAE",
+    "STATUS_EDU_DESC": "Department of Information Technology, Computing and Telecommunications Engineering.",
+    "STATUS_ARMY_DATE": "August 2026",
+    "STATUS_ARMY_DESC": "Military Service Enlistment (G' ESSO). Open for remote/freelance collaborations prior to this date.",
+    
+    "OFFLINE_TITLE": "Offline Mode",
+    "OFFLINE_DESC": "My approach to code — focusing on architecture, performance, and continuous improvement — is also reflected in my interests away from the screen.",
+    "HOBBY_MECH_TITLE": "Mechanical Engineering & Tuning",
+    "HOBBY_MECH_DESC": "System analysis and improvement, with a soft spot for rotary (Wankel) engines. The same logic of debugging, but with hand tools.",
+    "HOBBY_MOTO_TITLE": "Sport Touring",
+    "HOBBY_MOTO_DESC": "Organizing the next trip and studying motorcycle ergonomics requires attention to detail and strategic planning.",
+    "HOBBY_GYM_TITLE": "Strength Training",
+    "HOBBY_GYM_DESC": "Training is the ultimate form of consistency. It sets the foundation of discipline required to complete a demanding tech project."
+  },
+  "NAV": {
+    "HOME": "Home",
+    "PROJECTS": "Projects",
+    "RESUME": "Resume",
+    "CONTACT": "Contact Me"
+  },
+  "FOOTER": {
+    "CTA_TITLE": "Have a project in mind?",
+    "CTA_BTN": "Let's talk",
+    "BRAND_DESC": "Full-Stack Software Engineer.<br>Building robust web applications and digital experiences.",
+    "NAV_TITLE": "Navigation",
+    "RIGHTS": "All rights reserved.",
+    "BUILT_WITH": "Built with Angular & .NET Core"
+  },
+  "PROJECTS": {
+    "PAGE_TITLE": "My Projects",
+    "SEARCH_PLACEHOLDER": "Search by technology or keyword (e.g., Angular, API)...",
+    "EMPTY_TITLE": "Nothing found!",
+    "EMPTY_DESC": "No projects match your current search criteria.",
+    "BTN_RESET": "Reset Filters",
+    "BTN_VIEW": "View Project",
+    "DESC_SMOOTH_JOURNEY": "Comprehensive travel platform. Includes a dynamic frontend and a robust backend for managing travel data.",
+    "DESC_TOTAL_UNIT": "Multi-platform SaaS application for file conversion. Handles heavy conversion modules with a focus on speed and modern UI.",
+    "DESC_PRIVACY": "Custom network setup on Raspberry Pi for network anonymity, ad-blocking, and strict digital footprint control.",
+    "DESC_NOTYEZZ": "Creation and management of educational and entertaining digital content with a focus on technology."
+  },
+  "RESUME": {
+    "PAGE_TITLE_1": "Curriculum",
+    "PAGE_TITLE_ACCENT": "Vitae",
+    "EDITION": "// Edition 2026",
+    "BTN_DOWNLOAD": "Download PDF",
+    "EXP_TITLE": "Professional Experience",
+    "EDU_TITLE": "Education",
+    "SKILLS_TITLE": "Technical Matrix",
+    "FOCUS_TITLE": "Current Focus",
+    "FOCUS_DESC": "Preparation for Military Enlistment <strong>(August 2026)</strong>. Concurrently engaged in Content Creation (NotYezz) and Full-Stack Freelance collaborations.",
+    
+    "EXP_PERIOD_1": "November 2025 - May 2026",
+    "EXP_TITLE_1": "Smooth Journey",
+    "EXP_COMP_1": "Graduation Thesis",
+    "EXP_DESC_1": "Design and development of Full-Stack systems for enterprise data management using Angular and .NET Core.",
+    
+    "EXP_TITLE_2": "Personal Project",
+    "EXP_DESC_2": "Lead developer for TotalUnit. Design of a multi-platform file conversion engine and optimization of backend algorithms.",
+    
+    "EDU_TITLE_1": "Information Technology, Computing & Telecommunications Engineer",
+    "EDU_INST_1": "IHU (Serres)",
+    "EDU_DESC_1": "Specialization in Software Engineering, Distributed Systems, and Network Security.",
+    
+    "SKILL_CAT_1": "Frontend",
+    "SKILL_CAT_2": "Backend",
+    "SKILL_CAT_3": "Infrastructure",
+    "SKILL_CAT_4": "Data"
+  }
+}

@@ -106,9 +106,10 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px; 
   align-items: stretch;
+  width: 100%;
 }
 
 .project-card {

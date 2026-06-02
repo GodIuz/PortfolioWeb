@@ -2,11 +2,11 @@
   
   <header class="resume-header">
     <div class="header-content">
-      <h1 class="page-title">Curriculum <span class="accent-text">Vitae</span></h1>
-      <p class="edition-tag">// Edition 2026</p>
+      <h1 class="page-title">{{ 'RESUME.PAGE_TITLE_1' | translate }} <span class="accent-text">{{ 'RESUME.PAGE_TITLE_ACCENT' | translate }}</span></h1>
+      <p class="edition-tag">{{ 'RESUME.EDITION' | translate }}</p>
     </div>
     <button (click)="downloadCV()" class="btn-download">
-      <i class="fa-solid fa-file-pdf"></i> Download PDF
+      <i class="fa-solid fa-file-pdf"></i> {{ 'RESUME.BTN_DOWNLOAD' | translate }}
     </button>
   </header>
 
@@ -15,30 +15,30 @@
     <div class="timeline-column">
       
       <section class="resume-section">
-        <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Επαγγελματική Εμπειρία</h2>
+        <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> {{ 'RESUME.EXP_TITLE' | translate }}</h2>
         <div class="timeline">
           <div class="timeline-item" *ngFor="let exp of experience">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <span class="period">{{ exp.period }}</span>
-              <h3>{{ exp.title }}</h3>
-              <span class="company">{{ exp.company }}</span>
-              <p>{{ exp.description }}</p>
+              <span class="period">{{ exp.period | translate }}</span>
+              <h3>{{ exp.title | translate }}</h3>
+              <span class="company">{{ exp.company | translate }}</span>
+              <p>{{ exp.description | translate }}</p>
             </div>
           </div>
         </div>
       </section>
 
       <section class="resume-section">
-        <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Εκπαίδευση</h2>
+        <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> {{ 'RESUME.EDU_TITLE' | translate }}</h2>
         <div class="timeline">
           <div class="timeline-item" *ngFor="let edu of education">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <span class="period">{{ edu.period }}</span>
-              <h3>{{ edu.title }}</h3>
-              <span class="company">{{ edu.institution }}</span>
-              <p>{{ edu.description }}</p>
+              <span class="period">{{ edu.period | translate }}</span>
+              <h3>{{ edu.title | translate }}</h3>
+              <span class="company">{{ edu.institution | translate }}</span>
+              <p>{{ edu.description | translate }}</p>
             </div>
           </div>
         </div>
@@ -49,10 +49,10 @@
     <div class="info-column">
       
       <section class="resume-section">
-        <h2 class="section-title"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Matrix</h2>
+        <h2 class="section-title"><i class="fa-solid fa-screwdriver-wrench"></i> {{ 'RESUME.SKILLS_TITLE' | translate }}</h2>
         <div class="skills-grid">
           <div class="skill-group" *ngFor="let group of skills">
-            <h3>{{ group.category }}</h3>
+            <h3>{{ group.category | translate }}</h3>
             <div class="skill-tags">
               <span *ngFor="let item of group.items" class="skill-tag">{{ item }}</span>
             </div>
@@ -62,8 +62,8 @@
 
       <section class="resume-section">
         <div class="milestone-card">
-          <h3 class="accent-text">Current Focus</h3>
-          <p>Προετοιμασία για την <strong>Γ' ΕΣΣΟ (Αύγουστος 2026)</strong>. Παράλληλη ενασχόληση με Content Creation (NotYezz) και Full-Stack Freelance συνεργασίες.</p>
+          <h3 class="accent-text">{{ 'RESUME.FOCUS_TITLE' | translate }}</h3>
+          <p [innerHTML]="'RESUME.FOCUS_DESC' | translate"></p>
         </div>
       </section>
 

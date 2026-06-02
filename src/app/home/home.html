@@ -2,25 +2,24 @@
   
   <section class="hero-section">
     <div class="hero-content">
-      <h3 class="greeting">Γεια, είμαι ο Χάρης</h3>
+      <h3 class="greeting">{{ 'HOME.GREETING' | translate }}</h3>
       <h1 class="hero-title">
-        Engineering <span class="accent-text">Robust</span><br>
-        Digital Solutions.
+        {{ 'HOME.HERO_TITLE_1' | translate }} <span class="accent-text">{{ 'HOME.HERO_TITLE_ACCENT' | translate }}</span><br>
+        {{ 'HOME.HERO_TITLE_2' | translate }}
       </h1>
       <p class="hero-subtitle">
-        Full-Stack Software Engineer με έμφαση σε Enterprise Web Εφαρμογές, 
-        Hardware Automations και δημιουργία Tech περιεχομένου.
+        {{ 'HOME.HERO_SUBTITLE' | translate }}
       </p>
       
       <div class="hero-actions">
-        <a routerLink="/projects" class="btn-primary">Δες τη δουλειά μου</a>
-        <a href="mailto:hello@kiriakidis.dev" class="btn-secondary">Επικοινωνία</a>
+        <a routerLink="/projects" class="btn-primary">{{ 'HOME.BTN_PROJECTS' | translate }}</a>
+        <a href="mailto:hello@kiriakidis.dev" class="btn-secondary">{{ 'HOME.BTN_CONTACT' | translate }}</a>
       </div>
     </div>
   </section>
 
   <section class="domains-section">
-    <h2 class="section-title">Οι Τομείς Μου</h2>
+    <h2 class="section-title">{{ 'HOME.DOMAINS_TITLE' | translate }}</h2>
     
     <div class="domains-grid">
       
@@ -28,31 +27,31 @@
         <div class="icon-wrapper">
           <i class="fa-solid fa-code"></i>
         </div>
-        <h3>Web Development</h3>
-        <p>Εξειδίκευση σε Angular και ASP.NET Core (C#) για την ανάπτυξη ασφαλών και γρήγορων Full-Stack συστημάτων και API.</p>
+        <h3>{{ 'HOME.DOMAIN_WEB_TITLE' | translate }}</h3>
+        <p>{{ 'HOME.DOMAIN_WEB_DESC' | translate }}</p>
       </div>
 
       <div class="domain-card">
         <div class="icon-wrapper">
           <i class="fa-solid fa-microchip"></i>
         </div>
-        <h3>Hardware & Systems</h3>
-        <p>Διασύνδεση λογισμικού με τον φυσικό κόσμο. Εμπειρία σε Raspberry Pi, Python scripting και Custom DNS/Privacy Setups.</p>
+        <h3>{{ 'HOME.DOMAIN_HW_TITLE' | translate }}</h3>
+        <p>{{ 'HOME.DOMAIN_HW_DESC' | translate }}</p>
       </div>
 
       <div class="domain-card">
         <div class="icon-wrapper">
           <i class="fa-solid fa-video"></i>
         </div>
-        <h3>Digital Content</h3>
-        <p>Δημιουργός του καναλιού NotYezz (Tech/IT Education). Συνδυάζω τον κώδικα με το storytelling.</p>
+        <h3>{{ 'HOME.DOMAIN_CONTENT_TITLE' | translate }}</h3>
+        <p>{{ 'HOME.DOMAIN_CONTENT_DESC' | translate }}</p>
       </div>
 
     </div>
   </section>
 
   <section class="tech-stack-section">
-    <h2 class="section-title">Tech Stack & Εργαλεία</h2>
+    <h2 class="section-title">{{ 'HOME.TECH_TITLE' | translate }}</h2>
     <div class="tech-badges">
       <span class="badge"><i class="fa-brands fa-angular"></i> Angular</span>
       <span class="badge"><i class="fa-brands fa-microsoft"></i> ASP.NET Core</span>
@@ -64,14 +63,14 @@
   </section>
 
   <section class="featured-projects-section">
-    <h2 class="section-title">Επιλεγμένα Projects</h2>
+    <h2 class="section-title">{{ 'HOME.FEAT_PROJECTS_TITLE' | translate }}</h2>
     <div class="featured-grid">
       
       <div class="featured-card">
         <div class="project-content">
           <span class="project-tag">Web Platform</span>
           <h3>Smooth Journey</h3>
-          <p>Ολοκληρωμένη ταξιδιωτική πλατφόρμα. Ακαδημαϊκό project (Βαθμός: 10/10) χτισμένο με ισχυρή αρχιτεκτονική στο backend και δυναμικό UI στο frontend.</p>
+          <p>{{ 'HOME.FEAT_SMOOTH_DESC' | translate }}</p>
           <div class="project-tech">
             <span>.NET</span><span>Angular</span><span>REST API</span>
           </div>
@@ -82,7 +81,7 @@
         <div class="project-content">
           <span class="project-tag">SaaS / Tool</span>
           <h3>TotalUnit</h3>
-          <p>Multi-platform εφαρμογή (file conversion) σχεδιασμένη να διαχειρίζεται βαριά modules μετατροπής αρχείων με έμφαση στην ταχύτητα και το modern UI.</p>
+          <p>{{ 'HOME.FEAT_TOTAL_DESC' | translate }}</p>
           <div class="project-tech">
             <span>C#</span><span>Algorithms</span><span>Desktop/Web</span>
           </div>
@@ -91,7 +90,7 @@
 
     </div>
     <div class="view-all-container">
-      <a routerLink="/projects" class="btn-outline-red">Δες όλο το Portfolio &rarr;</a>
+      <a routerLink="/projects" class="btn-outline-red">{{ 'HOME.BTN_VIEW_ALL' | translate }}</a>
     </div>
   </section>
 
@@ -99,20 +98,20 @@
     <div class="status-box">
       <div class="status-header">
         <i class="fa-solid fa-crosshairs"></i>
-        <h3>Current Status & Availability</h3>
+        <h3>{{ 'HOME.STATUS_TITLE' | translate }}</h3>
       </div>
       <ul class="timeline-list">
         <li>
-          <span class="date">Σήμερα</span>
-          <span class="event">Ανάπτυξη Full-Stack SaaS (TotalUnit) & Content Creation.</span>
+          <span class="date">{{ 'HOME.STATUS_TODAY' | translate }}</span>
+          <span class="event">{{ 'HOME.STATUS_TODAY_DESC' | translate }}</span>
         </li>
         <li>
-          <span class="date">ΔΙ.ΠΑ.Ε.</span>
-          <span class="event">Τμήμα Μηχανικών Πληροφορικής, Υπολογιστών και Τηλεπικοινωνιών.</span>
+          <span class="date">{{ 'HOME.STATUS_EDU_DATE' | translate }}</span>
+          <span class="event">{{ 'HOME.STATUS_EDU_DESC' | translate }}</span>
         </li>
         <li class="highlight">
-          <span class="date">Αύγουστος 2026</span>
-          <span class="event">Έναρξη Στρατιωτικής Θητείας (Γ' ΕΣΣΟ). Ανοιχτός για remote/freelance συνεργασίες νωρίτερα.</span>
+          <span class="date">{{ 'HOME.STATUS_ARMY_DATE' | translate }}</span>
+          <span class="event">{{ 'HOME.STATUS_ARMY_DESC' | translate }}</span>
         </li>
       </ul>
     </div>
@@ -121,29 +120,29 @@
   <section class="offline-section">
     <div class="offline-container">
       <div class="offline-text">
-        <h2 class="section-title" style="text-align: left;">Offline Mode</h2>
-        <p>Ο τρόπος που προσεγγίζω τον κώδικα — με έμφαση στην αρχιτεκτονική, την απόδοση και τη συνεχή βελτίωση — αντικατοπτρίζεται και στα ενδιαφέροντά μου μακριά από την οθόνη.</p>
+        <h2 class="section-title" style="text-align: left;">{{ 'HOME.OFFLINE_TITLE' | translate }}</h2>
+        <p>{{ 'HOME.OFFLINE_DESC' | translate }}</p>
         
         <ul class="hobby-list">
           <li>
             <i class="fa-solid fa-gear"></i>
             <div>
-              <strong>Mechanical Engineering & Tuning</strong>
-              <span>Ανάλυση και βελτίωση συστημάτων, με ιδιαίτερη αδυναμία στους περιστροφικούς (Wankel) κινητήρες. Η ίδια λογική του debugging, αλλά με εργαλεία χειρός.</span>
+              <strong>{{ 'HOME.HOBBY_MECH_TITLE' | translate }}</strong>
+              <span>{{ 'HOME.HOBBY_MECH_DESC' | translate }}</span>
             </div>
           </li>
           <li>
             <i class="fa-solid fa-motorcycle"></i>
             <div>
-              <strong>Sport Touring</strong>
-              <span>Η οργάνωση του επόμενου ταξιδιού και η μελέτη της εργονομίας στα δίτροχα απαιτούν προσοχή στη λεπτομέρεια και στρατηγικό σχεδιασμό.</span>
+              <strong>{{ 'HOME.HOBBY_MOTO_TITLE' | translate }}</strong>
+              <span>{{ 'HOME.HOBBY_MOTO_DESC' | translate }}</span>
             </div>
           </li>
           <li>
             <i class="fa-solid fa-dumbbell"></i>
             <div>
-              <strong>Strength Training</strong>
-              <span>Η προπόνηση είναι η απόλυτη μορφή consistency. Θέτει τα θεμέλια της πειθαρχίας που απαιτείται για να ολοκληρωθεί ένα απαιτητικό tech project.</span>
+              <strong>{{ 'HOME.HOBBY_GYM_TITLE' | translate }}</strong>
+              <span>{{ 'HOME.HOBBY_GYM_DESC' | translate }}</span>
             </div>
           </li>
         </ul>

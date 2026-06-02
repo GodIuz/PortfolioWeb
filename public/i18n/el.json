@@ -1,0 +1,97 @@
+{
+  "HOME": {
+    "GREETING": "Γεια, είμαι ο Χάρης",
+    "HERO_TITLE_1": "Engineering",
+    "HERO_TITLE_ACCENT": "Robust",
+    "HERO_TITLE_2": "Digital Solutions.",
+    "HERO_SUBTITLE": "Full-Stack Software Engineer με έμφαση σε Enterprise Web Εφαρμογές, Hardware Automations και δημιουργία Tech περιεχομένου.",
+    "BTN_PROJECTS": "Δες τη δουλειά μου",
+    "BTN_CONTACT": "Επικοινωνία",
+    
+    "DOMAINS_TITLE": "Οι Τομείς Μου",
+    "DOMAIN_WEB_TITLE": "Web Development",
+    "DOMAIN_WEB_DESC": "Εξειδίκευση σε Angular και ASP.NET Core (C#) για την ανάπτυξη ασφαλών και γρήγορων Full-Stack συστημάτων και API.",
+    "DOMAIN_HW_TITLE": "Hardware & Systems",
+    "DOMAIN_HW_DESC": "Διασύνδεση λογισμικού με τον φυσικό κόσμο. Εμπειρία σε Raspberry Pi, Python scripting και Custom DNS/Privacy Setups.",
+    "DOMAIN_CONTENT_TITLE": "Digital Content",
+    "DOMAIN_CONTENT_DESC": "Δημιουργός του καναλιού NotYezz (Tech/IT Education). Συνδυάζω τον κώδικα με το storytelling.",
+    
+    "TECH_TITLE": "Tech Stack & Εργαλεία",
+    
+    "FEAT_PROJECTS_TITLE": "Επιλεγμένα Projects",
+    "FEAT_SMOOTH_DESC": "Ολοκληρωμένη ταξιδιωτική πλατφόρμα. Ακαδημαϊκό project (Βαθμός: 10/10) χτισμένο με ισχυρή αρχιτεκτονική στο backend και δυναμικό UI στο frontend.",
+    "FEAT_TOTAL_DESC": "Multi-platform εφαρμογή (file conversion) σχεδιασμένη να διαχειρίζεται βαριά modules μετατροπής αρχείων με έμφαση στην ταχύτητα και το modern UI.",
+    "BTN_VIEW_ALL": "Δες όλο το Portfolio &rarr;",
+    
+    "STATUS_TITLE": "Current Status & Availability",
+    "STATUS_TODAY": "Σήμερα",
+    "STATUS_TODAY_DESC": "Ανάπτυξη Full-Stack SaaS (TotalUnit) & Content Creation.",
+    "STATUS_EDU_DATE": "ΔΙ.ΠΑ.Ε.",
+    "STATUS_EDU_DESC": "Τμήμα Μηχανικών Πληροφορικής, Υπολογιστών και Τηλεπικοινωνιών.",
+    "STATUS_ARMY_DATE": "Αύγουστος 2026",
+    "STATUS_ARMY_DESC": "Έναρξη Στρατιωτικής Θητείας (Γ' ΕΣΣΟ). Ανοιχτός για remote/freelance συνεργασίες νωρίτερα.",
+    
+    "OFFLINE_TITLE": "Offline Mode",
+    "OFFLINE_DESC": "Ο τρόπος που προσεγγίζω τον κώδικα — με έμφαση στην αρχιτεκτονική, την απόδοση και τη συνεχή βελτίωση — αντικατοπτρίζεται και στα ενδιαφέροντά μου μακριά από την οθόνη.",
+    "HOBBY_MECH_TITLE": "Mechanical Engineering & Tuning",
+    "HOBBY_MECH_DESC": "Ανάλυση και βελτίωση συστημάτων, με ιδιαίτερη αδυναμία στους περιστροφικούς (Wankel) κινητήρες. Η ίδια λογική του debugging, αλλά με εργαλεία χειρός.",
+    "HOBBY_MOTO_TITLE": "Sport Touring",
+    "HOBBY_MOTO_DESC": "Η οργάνωση του επόμενου ταξιδιού και η μελέτη της εργονομίας στα δίτροχα απαιτούν προσοχή στη λεπτομέρεια και στρατηγικό σχεδιασμό.",
+    "HOBBY_GYM_TITLE": "Strength Training",
+    "HOBBY_GYM_DESC": "Η προπόνηση είναι η απόλυτη μορφή consistency. Θέτει τα θεμέλια της πειθαρχίας που απαιτείται για να ολοκληρωθεί ένα απαιτητικό tech project."
+  },
+  "NAV": {
+    "HOME": "Αρχική",
+    "PROJECTS": "Projects",
+    "RESUME": "Βιογραφικό",
+    "CONTACT": "Επικοινωνία"
+  },
+  "FOOTER": {
+    "CTA_TITLE": "Έχεις κάποιο project στο μυαλό σου;",
+    "CTA_BTN": "Ας μιλήσουμε",
+    "BRAND_DESC": "Full-Stack Software Engineer.<br>Δημιουργώντας στιβαρές web εφαρμογές και ψηφιακές εμπειρίες.",
+    "NAV_TITLE": "Πλοήγηση",
+    "RIGHTS": "Με την επιφύλαξη παντός δικαιώματος.",
+    "BUILT_WITH": "Κατασκευάστηκε με Angular & .NET Core"
+  },
+  "PROJECTS": {
+    "PAGE_TITLE": "Τα Projects Μου",
+    "SEARCH_PLACEHOLDER": "Αναζήτηση με τεχνολογία ή λέξη-κλειδί (π.χ. Angular, API)...",
+    "EMPTY_TITLE": "Δεν βρέθηκε κάτι!",
+    "EMPTY_DESC": "Δεν υπάρχει κάποιο project που να ταιριάζει με την αναζήτησή σου.",
+    "BTN_RESET": "Επαναφορά Φίλτρων",
+    "BTN_VIEW": "View Project",
+    "DESC_SMOOTH_JOURNEY": "Ολοκληρωμένη ταξιδιωτική πλατφόρμα. Περιλαμβάνει δυναμικό frontend και ισχυρό backend για διαχείριση ταξιδιωτικών δεδομένων.",
+    "DESC_TOTAL_UNIT": "Multi-platform SaaS εφαρμογή για μετατροπή αρχείων. Διαχειρίζεται βαριά modules μετατροπής με έμφαση στην ταχύτητα και το modern UI.",
+    "DESC_PRIVACY": "Custom setup δικτύου σε Raspberry Pi για network anonymity, ad-blocking και αυστηρό έλεγχο ψηφιακού αποτυπώματος.",
+    "DESC_NOTYEZZ": "Δημιουργία και διαχείριση εκπαιδευτικού και ψυχαγωγικού ψηφιακού περιεχομένου με έμφαση στην τεχνολογία."
+  },
+  "RESUME": {
+    "PAGE_TITLE_1": "Curriculum",
+    "PAGE_TITLE_ACCENT": "Vitae",
+    "EDITION": "// Edition 2026",
+    "BTN_DOWNLOAD": "Κατέβασμα PDF",
+    "EXP_TITLE": "Επαγγελματική Εμπειρία",
+    "EDU_TITLE": "Εκπαίδευση",
+    "SKILLS_TITLE": "Technical Matrix",
+    "FOCUS_TITLE": "Current Focus",
+    "FOCUS_DESC": "Προετοιμασία για την <strong>Γ' ΕΣΣΟ (Αύγουστος 2026)</strong>. Παράλληλη ενασχόληση με Content Creation (NotYezz) και Full-Stack Freelance συνεργασίες.",
+    
+    "EXP_PERIOD_1": "Νοέμβριος 2025 - Μάιος 2026",
+    "EXP_TITLE_1": "Smooth Journey",
+    "EXP_COMP_1": "Πτυχιακή Εργασία",
+    "EXP_DESC_1": "Σχεδιασμός και ανάπτυξη Full-Stack συστημάτων για διαχείριση enterprise δεδομένων με Angular και .NET Core.",
+    
+    "EXP_TITLE_2": "Προσωπικό Project",
+    "EXP_DESC_2": "Επικεφαλής ανάπτυξης για το TotalUnit. Σχεδιασμός multi-platform file conversion engine και optimization backend αλγορίθμων.",
+    
+    "EDU_TITLE_1": "Μηχανικός Πληροφορικής, Υπολογιστών & Τηλεπικοινωνιών",
+    "EDU_INST_1": "ΔΙ.ΠΑ.Ε. (Σέρρες)",
+    "EDU_DESC_1": "Εξειδίκευση σε Software Engineering, Κατανεμημένα Συστήματα και Ασφάλεια Δικτύων.",
+    
+    "SKILL_CAT_1": "Frontend",
+    "SKILL_CAT_2": "Backend",
+    "SKILL_CAT_3": "Infrastructure",
+    "SKILL_CAT_4": "Data"
+  }
+}

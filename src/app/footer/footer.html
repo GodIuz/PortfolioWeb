@@ -2,8 +2,8 @@
   <div class="footer-container">
     
     <div class="footer-cta">
-      <h2>Έχεις κάποιο project στο μυαλό σου;</h2>
-      <a href="mailto:hello@kiriakidis.dev" class="btn-outline">Ας μιλήσουμε</a>
+      <h2>{{ 'FOOTER.CTA_TITLE' | translate }}</h2>
+      <a href="mailto:hello@kyriakidis.dev" class="btn-outline">{{ 'FOOTER.CTA_BTN' | translate }}</a>
     </div>
 
     <div class="footer-divider"></div>
@@ -14,7 +14,7 @@
         <div class="brand-logo">
           <span class="accent">&lt;</span>Kyriakidis<span class="accent">/&gt;</span>
         </div>
-        <p>Full-Stack Software Engineer.<br>Building robust web applications and digital experiences.</p>
+        <p [innerHTML]="'FOOTER.BRAND_DESC' | translate"></p>
         
         <div class="social-icons">
           <a href="https://github.com/GodIuz" target="_blank" title="GitHub">
@@ -37,18 +37,18 @@
 
       <div class="footer-links">
         <div class="link-group">
-          <h3>Navigation</h3>
-          <a routerLink="/">Home</a>
-          <a routerLink="/projects">Projects</a>
-          <a routerLink="/resume">Resume</a>
+          <h3>{{ 'FOOTER.NAV_TITLE' | translate }}</h3>
+          <a routerLink="/">{{ 'NAV.HOME' | translate }}</a>
+          <a routerLink="/projects">{{ 'NAV.PROJECTS' | translate }}</a>
+          <a routerLink="/resume">{{ 'NAV.RESUME' | translate }}</a>
         </div>
       </div>
       
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; {{ currentYear }} Charis Kiriakidis. All rights reserved.</p>
-      <p class="tech-stack">Built with Angular & .NET Core</p>
+      <p>&copy; {{ currentYear }} Charis Kiriakidis. {{ 'FOOTER.RIGHTS' | translate }}</p>
+      <p class="tech-stack">{{ 'FOOTER.BUILT_WITH' | translate }}</p>
     </div>
 
   </div>

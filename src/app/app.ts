@@ -3,6 +3,7 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./navbar/navbar";
 import { Footer } from "./footer/footer";
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,11 @@ import { Footer } from "./footer/footer";
   styleUrl: './app.css'
 })
 export class App {
- 
+  
+  constructor(private translate: TranslateService) {
+    this.translate.addLangs(['en', 'el']);
+    this.translate.setDefaultLang('en');
+    const browserLang = this.translate.getBrowserLang();
+    this.translate.use(browserLang?.match(/el/) ? 'el' : 'en');
+  }
 }

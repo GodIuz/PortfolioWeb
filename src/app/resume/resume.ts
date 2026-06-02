@@ -1,45 +1,47 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-resume',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './resume.html',
   styleUrl: './resume.css',
 })
 export class Resume {
   experience = [
     {
-      period: 'Νοεμβριος 2025 - Μάϊος 2026',
-      title: 'Smooth Journey',
-      company: 'Πτυχιακή Εργασία',
-      description: 'Σχεδιασμός και ανάπτυξη Full-Stack συστημάτων για διαχείριση enterprise δεδομένων με Angular και .NET Core.'
+      period: 'RESUME.EXP_PERIOD_1',
+      title: 'RESUME.EXP_TITLE_1',
+      company: 'RESUME.EXP_COMP_1',
+      description: 'RESUME.EXP_DESC_1'
     },
     {
       period: '2026 - 2027',
-      title: 'Προσωπικο Project',
+      title: 'RESUME.EXP_TITLE_2',
       company: 'TotalUnit Project',
-      description: 'Επικεφαλής ανάπτυξης για το TotalUnit. Σχεδιασμός multi-platform file conversion engine και optimization backend αλγορίθμων.'
+      description: 'RESUME.EXP_DESC_2'
     }
   ];
 
   education = [
     {
       period: '2017 - 2026',
-      title: 'Μηχανικός Πληροφορικής, Υπολογιστών & Τηλεπικοινωνιών',
-      institution: 'ΔΙ.ΠΑ.Ε. (Σέρρες)',
-      description: 'Εξειδίκευση σε Software Engineering, Κατανεμημένα Συστήματα και Ασφάλεια Δικτύων.'
+      title: 'RESUME.EDU_TITLE_1',
+      institution: 'RESUME.EDU_INST_1',
+      description: 'RESUME.EDU_DESC_1'
     }
   ];
 
   skills = [
-    { category: 'Frontend', items: ['Angular', 'TypeScript', 'RxJS', 'Signal State', 'Tailwind CSS'] },
-    { category: 'Backend', items: ['C#', 'ASP.NET Core', 'Python', 'Entity Framework', 'REST APIs'] },
-    { category: 'Infrastructure', items: ['Linux / Bash', 'Docker', 'Git / GitHub', 'CI/CD'] },
-    { category: 'Data', items: ['SQL Server', 'SQLite', 'MongoDB', 'Redis'] }
+    { category: 'RESUME.SKILL_CAT_1', items: ['Angular', 'TypeScript', 'RxJS', 'Signal State', 'Tailwind CSS'] },
+    { category: 'RESUME.SKILL_CAT_2', items: ['C#', 'ASP.NET Core', 'Python', 'Entity Framework', 'REST APIs'] },
+    { category: 'RESUME.SKILL_CAT_3', items: ['Linux / Bash', 'Docker', 'Git / GitHub', 'CI/CD'] },
+    { category: 'RESUME.SKILL_CAT_4', items: ['SQL Server', 'SQLite', 'MongoDB', 'Redis'] }
   ];
 
   downloadCV() {
-    window.open('cv-xaralamposkyriakdis.pdf', '_blank');
-  }}
+    window.open('/cv/cv-xaralamposkyriakdis.pdf', '_blank');
+  }
+}

@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Project } from '../interface/project';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
 })
@@ -16,7 +17,7 @@ export class Projects {
     {
       title: 'Smooth Journey',
       category: 'Web/SaaS',
-      description: 'Ολοκληρωμένη ταξιδιωτική πλατφόρμα. Περιλαμβάνει δυναμικό frontend και ισχυρό backend για διαχείριση ταξιδιωτικών δεδομένων.',
+      description: 'PROJECTS.DESC_SMOOTH_JOURNEY',
       techStack: ['Angular', 'ASP.NET Core', 'SQL'],
       grade: '10/10',
       link: 'https://github.com/GodIuz/smoothjourney-ui'
@@ -24,24 +25,24 @@ export class Projects {
     {
       title: 'TotalUnit',
       category: 'Web/SaaS',
-      description: 'Multi-platform SaaS εφαρμογή για μετατροπή αρχείων. Διαχειρίζεται βαριά modules μετατροπής με έμφαση στην ταχύτητα και το modern UI.',
+      description: 'PROJECTS.DESC_TOTAL_UNIT',
       techStack: ['C#', '.NET', 'Desktop/Web'],
       link: 'https://github.com/GodIuz/Convertify'
     },
     {
       title: 'Privacy Gateway & DNS Sinkhole',
       category: 'Hardware',
-      description: 'Custom setup δικτύου σε Raspberry Pi για network anonymity, ad-blocking και αυστηρό έλεγχο ψηφιακού αποτυπώματος.',
+      description: 'PROJECTS.DESC_PRIVACY',
       techStack: ['Raspberry Pi', 'Linux', 'Networking', 'Tor']
     },
     {
       title: 'NotYezz',
       category: 'Content',
-      description: 'Δημιουργία και διαχείριση εκπαιδευτικού και ψυχαγωγικού ψηφιακού περιεχομένου με έμφαση στην τεχνολογία',
-      techStack: ['Video Production','popularization of science', 'Community'],
+      description: 'PROJECTS.DESC_NOTYEZZ',
+      techStack: ['Video Production', 'popularization of science', 'Community'],
       link: 'https://www.youtube.com/@NotYezz'
     }
-  ];
+];
 
 searchQuery: string = '';
 

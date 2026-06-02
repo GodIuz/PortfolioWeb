@@ -1,4 +1,3 @@
-
 .navbar {
   position: fixed;
   top: 0;
@@ -150,12 +149,40 @@
   color: var(--text-primary);
 }
 
+.lang-toggle-btn {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid #333;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.lang-toggle-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.mobile-controls {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .desktop-only {
-    display: none; 
+    display: none !important; 
   }
   
-  .hamburger.mobile-only {
+  .mobile-controls.mobile-only {
+    display: flex !important; 
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .hamburger {
     display: block; 
   }
-} 
+}
