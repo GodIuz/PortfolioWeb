@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+Allow: /projects
+Allow: /resume
+Allow: /i18n/
+Allow: /cv/
+
+# Αποτροπή σάρωσης προσωρινών αρχείων ή αρχείων συστήματος αν υπάρχουν
+Disallow: /*.json$
+Allow: /i18n/*.json$
+
+# Όταν συνδέσεις custom domain, ξεσχολίασε την παρακάτω γραμμή και βάλε το URL σου
+# Sitemap: https://your-domain.dev/sitemap.xml
