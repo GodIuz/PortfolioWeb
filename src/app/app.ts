@@ -16,14 +16,10 @@ import { injectSpeedInsights } from '@vercel/speed-insights';
 })
 export class App implements OnInit {
   
-  constructor(private translate: TranslateService) {
-    this.translate.addLangs(['en', 'el']);
-    this.translate.setDefaultLang('en');
-    const browserLang = this.translate.getBrowserLang();
-    this.translate.use(browserLang?.match(/el/) ? 'el' : 'en');
-  }
+  constructor(private translate: TranslateService) {}
+
   ngOnInit() {
-    inject(); // Ξεκινάει το Vercel Analytics
-    injectSpeedInsights(); // Ξεκινάει το Vercel Speed Insights
-}
+    inject();
+    injectSpeedInsights();
+  }
 }
