@@ -30,10 +30,40 @@ export class Projects {
       link: 'https://github.com/GodIuz/Convertify'
     },
     {
+      title: 'Currency Converter',
+      category: 'Tools',
+      description: 'PROJECTS.DESC_CURRENCY_CONVERTER',
+      techStack: ['REALTIME', 'JAVAFX', 'API'],
+      link: 'https://github.com/GodIuz/ConverterCurrency'
+    },
+    {
+      title: 'Tic Tac Toe',
+      category: 'Tools',
+      description: 'PROJECTS.DESC_TIC_TAC_TOE',
+      techStack: ['JavaFX', 'AI', 'Game Development'],
+      link: 'https://github.com/GodIuz/TicTacToe'
+    },
+    {
+      title: 'PC-Info',
+      category: 'Tools',
+      description: 'PROJECTS.DESC_PC_INFO',
+      techStack: ['JavaFX', 'System Administration'],
+      link: 'https://github.com/GodIuz/PC-Info'
+    },
+    {
+      title: 'Dungeons of the Past',
+      category: 'Game Development',
+      description: 'PROJECTS.DESC_DUNGEONS_OF_THE_PAST',
+      techStack: ['Java', 'OOP', 'Data Structures', 'Command Parser'],
+      link: 'https://github.com/GodIuz/DungeonsOfThePast',
+      grade: '6/10'
+    },
+    {
       title: 'Privacy Gateway & DNS Sinkhole',
       category: 'Hardware',
       description: 'PROJECTS.DESC_PRIVACY',
-      techStack: ['Raspberry Pi', 'Linux', 'Networking', 'Tor']
+      techStack: ['Raspberry Pi', 'Linux', 'Networking', 'Tor'],
+      grade:'Coming Soon'
     },
     {
       title: 'NotYezz',
@@ -42,34 +72,34 @@ export class Projects {
       techStack: ['Video Production', 'popularization of science', 'Community'],
       link: 'https://www.youtube.com/@NotYezz'
     }
-];
+  ];
 
-searchQuery: string = '';
+  searchQuery: string = '';
 
-get filteredProjects() {
-  let result = this.projects;
+  get filteredProjects() {
+    let result = this.projects;
 
-  if (this.activeFilter !== 'All') {
-    result = result.filter(p => p.category === this.activeFilter);
+    if (this.activeFilter !== 'All') {
+      result = result.filter(p => p.category === this.activeFilter);
+    }
+
+    if (this.searchQuery.trim() !== '') {
+      const query = this.searchQuery.toLowerCase();
+      result = result.filter(p => 
+        p.title.toLowerCase().includes(query) || 
+        p.description.toLowerCase().includes(query) ||
+        p.techStack.some(tech => tech.toLowerCase().includes(query))
+      );
+    }
+
+    return result;
   }
 
-  if (this.searchQuery.trim() !== '') {
-    const query = this.searchQuery.toLowerCase();
-    result = result.filter(p => 
-      p.title.toLowerCase().includes(query) || 
-      p.description.toLowerCase().includes(query) ||
-      p.techStack.some(tech => tech.toLowerCase().includes(query))
-    );
+  updateSearch(event: Event) {
+    this.searchQuery = (event.target as HTMLInputElement).value;
   }
 
-  return result;
-}
-
-updateSearch(event: Event) {
-  this.searchQuery = (event.target as HTMLInputElement).value;
-}
-
-clearSearch() {
+  clearSearch() {
     this.searchQuery = '';
     this.activeFilter = 'All';
     const searchInput = document.querySelector('.search-input') as HTMLInputElement;

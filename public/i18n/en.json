@@ -63,6 +63,10 @@
     "BTN_VIEW": "View Project",
     "DESC_SMOOTH_JOURNEY": "Comprehensive travel platform. Includes a dynamic frontend and a robust backend for managing travel data.",
     "DESC_TOTAL_UNIT": "Multi-platform SaaS application for file conversion. Handles heavy conversion modules with a focus on speed and modern UI.",
+    "DESC_CURRENCY_CONVERTER": "Real-time currency conversion tool with integrated API for accurate rates.",
+    "DESC_TIC_TAC_TOE": "Classic Tic Tac Toe game implemented with JavaFX and AI.",
+    "DESC_PC_INFO": "System information tool built with JavaFX.",
+    "DESC_DUNGEONS_OF_THE_PAST": "A text-based adventure engine written in pure Java, inspired by the legendary Zork. It leverages strict OOP design patterns and features a custom command parser (Lexer), dynamic state management system (inventory/entities), and room navigation through graph structure.",
     "DESC_PRIVACY": "Custom network setup on Raspberry Pi for network anonymity, ad-blocking, and strict digital footprint control.",
     "DESC_NOTYEZZ": "Creation and management of educational and entertaining digital content with a focus on technology."
   },

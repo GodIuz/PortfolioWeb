@@ -63,6 +63,10 @@
     "BTN_VIEW": "View Project",
     "DESC_SMOOTH_JOURNEY": "Ολοκληρωμένη ταξιδιωτική πλατφόρμα. Περιλαμβάνει δυναμικό frontend και ισχυρό backend για διαχείριση ταξιδιωτικών δεδομένων.",
     "DESC_TOTAL_UNIT": "Multi-platform SaaS εφαρμογή για μετατροπή αρχείων. Διαχειρίζεται βαριά modules μετατροπής με έμφαση στην ταχύτητα και το modern UI.",
+    "DESC_CURRENCY_CONVERTER": "Real-time currency conversion tool με ενσωματωμένη API για ακριβή αναλογίες.",
+    "DESC_TIC_TAC_TOE": "Κλασικό παιχνίδι Tic Tac Toe υλοποιημένο με JavaFX και AI.",
+    "DESC_PC_INFO": "Εργαλείο πληροφόρησης συστήματος με JavaFX.",
+    "DESC_DUNGEONS_OF_THE_PAST": "Μια text-based adventure engine γραμμένη σε καθαρή Java, εμπνευσμένη από το θρυλικό Zork. Αξιοποιεί αυστηρά OOP design patterns και διαθέτει custom command parser (Lexer), δυναμικό σύστημα διαχείρισης state (inventory/entities) και πλοήγηση δωματίων μέσω δομής γράφων.",
     "DESC_PRIVACY": "Custom setup δικτύου σε Raspberry Pi για network anonymity, ad-blocking και αυστηρό έλεγχο ψηφιακού αποτυπώματος.",
     "DESC_NOTYEZZ": "Δημιουργία και διαχείριση εκπαιδευτικού και ψυχαγωγικού ψηφιακού περιεχομένου με έμφαση στην τεχνολογία."
   },

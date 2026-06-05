@@ -1,0 +1,21 @@
+@if (isVisible) {
+  <div class="terminal-overlay" (click)="input.focus()">
+    <div class="terminal-window" #scrollMe>
+      <div class="output">
+        @for (line of history; track $index) {
+          <pre class="line">{{ line }}</pre>
+        }
+        
+        <div class="input-line">
+          <span class="prompt">user&#64;kyriakidis:~$ </span>
+          <input #input 
+                 [(ngModel)]="command" 
+                 (keyup.enter)="execute()" 
+                 (keydown)="handleInputKeys($event)"
+                 autocomplete="off" 
+                 spellcheck="false">
+        </div>
+      </div>
+    </div>
+  </div>
+}

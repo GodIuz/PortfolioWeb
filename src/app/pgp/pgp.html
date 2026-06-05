@@ -1,0 +1,11 @@
+<div class="pgp-container">
+      <h2><i class="fa-solid fa-key"></i> Public PGP Key</h2>
+      <p>Use this key to send me encrypted messages or verify my signatures.</p>
+      
+      <div class="code-block">
+        <button class="copy-btn" (click)="copyKey()" [class.copied]="isCopied">
+  {{ isCopied ? 'Copied! ✔' : 'Copy' }}
+</button>
+        <pre><code>{{ publicKey }}</code></pre>
+      </div>
+    </div>

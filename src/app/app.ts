@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./navbar/navbar";
 import { Footer } from "./footer/footer";
+import { Terminal } from "./terminal/terminal";
 import { TranslateService } from '@ngx-translate/core';
 import { inject } from '@vercel/analytics';
 import { injectSpeedInsights } from '@vercel/speed-insights';
@@ -10,7 +11,7 @@ import { injectSpeedInsights } from '@vercel/speed-insights';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, Navbar, Footer],
+  imports: [RouterOutlet, CommonModule, Navbar, Footer, Terminal],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

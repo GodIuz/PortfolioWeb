@@ -41,6 +41,10 @@
         <span class="tech-item" *ngFor="let tech of project.techStack">{{ tech }}</span>
       </div>
       
+      <div class="architecture-section" *ngIf="project.title === 'Smooth Journey'">
+        <h4 class="arch-title"><i class="fa-solid fa-sitemap"></i> System Architecture</h4>
+      </div>
+      
       <div class="card-actions" *ngIf="project.link">
         <a [href]="project.link" target="_blank" class="btn-view">
           {{ 'PROJECTS.BTN_VIEW' | translate }} <i class="fa-solid fa-arrow-right"></i>
