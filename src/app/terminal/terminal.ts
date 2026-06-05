@@ -98,11 +98,19 @@ export class Terminal implements AfterViewChecked {
           this.history.push('Navigating to /projects...');
           window.location.href = '/projects';
           break;
+        case 'cat public.key': 
+        case 'gpg --export':
+          this.history.push('Extracting public key...'); 
+          setTimeout(() => {
+            window.location.href = '/pgp'; 
+          }, 400);
+          break;
         case 'help': 
           this.history.push('Available commands:');
           this.history.push('  whoami          Print user information');
           this.history.push('  cat resume.txt  View resume');
           this.history.push('  cd projects     Navigate to projects');
+          this.history.push('  cat public.key  View PGP Public Key'); // <-- ΝΕΟ
           this.history.push('  clear           Clear terminal output');
           this.history.push('  exit            Close terminal');
           break;
