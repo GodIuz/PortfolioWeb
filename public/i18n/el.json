@@ -80,19 +80,16 @@
     "SKILLS_TITLE": "Technical Matrix",
     "FOCUS_TITLE": "Current Focus",
     "FOCUS_DESC": "Προετοιμασία για την <strong>Γ' ΕΣΣΟ (Αύγουστος 2026)</strong>. Παράλληλη ενασχόληση με Content Creation (NotYezz) και Full-Stack Freelance συνεργασίες.",
-    
+    "EXP_PERIOD_0": "Νοέμβριος 2024 - Μάιος 2025",
+    "EXP_TITLE_0": "QA Software Engineer - Πρακτική Άσκηση",
+    "EXP_COMP_0": "FoodTec Solutions",
+    "EXP_DESC_0": "Σχεδίασα και εκτέλεσα χειροκίνητες και αυτοματοποιημένες δοκιμές για τη διασφάλιση της ποιότητας του λογισμικού.Συνεργάστηκα με προγραμματιστές για τον εντοπισμό, την καταγραφή και την επίλυση σφαλμάτων και προβλημάτων απόδοσης.Συμβολή στην ανάπτυξη λογισμικού χρησιμοποιώντας [π.χ. Java, Spring Boot], εστιάζοντας στη βελτίωση της αξιοπιστίας και της αποδοτικότητας.",
     "EXP_PERIOD_1": "Νοέμβριος 2025 - Μάιος 2026",
     "EXP_TITLE_1": "Smooth Journey",
     "EXP_COMP_1": "Πτυχιακή Εργασία",
     "EXP_DESC_1": "Σχεδιασμός και ανάπτυξη Full-Stack συστημάτων για διαχείριση enterprise δεδομένων με Angular και .NET Core.",
-    
-    "EXP_TITLE_2": "Προσωπικό Project",
-    "EXP_DESC_2": "Επικεφαλής ανάπτυξης για το TotalUnit. Σχεδιασμός multi-platform file conversion engine και optimization backend αλγορίθμων.",
-    
-    "EDU_TITLE_1": "Μηχανικός Πληροφορικής, Υπολογιστών & Τηλεπικοινωνιών",
     "EDU_INST_1": "ΔΙ.ΠΑ.Ε. (Σέρρες)",
     "EDU_DESC_1": "Εξειδίκευση σε Software Engineering, Κατανεμημένα Συστήματα και Ασφάλεια Δικτύων.",
-    
     "SKILL_CAT_1": "Frontend",
     "SKILL_CAT_2": "Backend",
     "SKILL_CAT_3": "Infrastructure",

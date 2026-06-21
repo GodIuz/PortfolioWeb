@@ -12,16 +12,16 @@ import { TranslateModule } from '@ngx-translate/core';
 export class Resume {
   experience = [
     {
+      period: 'RESUME.EXP_PERIOD_0',
+      title: 'RESUME.EXP_TITLE_0',
+      company: 'RESUME.EXP_COMP_0',
+      description: 'RESUME.EXP_DESC_0'
+    },
+    {
       period: 'RESUME.EXP_PERIOD_1',
       title: 'RESUME.EXP_TITLE_1',
       company: 'RESUME.EXP_COMP_1',
       description: 'RESUME.EXP_DESC_1'
-    },
-    {
-      period: '2026 - 2027',
-      title: 'RESUME.EXP_TITLE_2',
-      company: 'TotalUnit Project',
-      description: 'RESUME.EXP_DESC_2'
     }
   ];
 
